@@ -137,7 +137,7 @@ print("Hello World")
 
 __Result:__
 
-``` python @PyScript.repl(auto-generate="true")
+``` python @PyScript.replWith(auto-generate="true")
 print("Hello World")
 ```
 
