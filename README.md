@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: en
 
@@ -13,8 +13,8 @@ logo:     logo.png
 
 comment:  Set of PyScript-macros to be used with LiaScript for creating interactive Python tutorial.
 
-link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.1/dist/pyscript.css
-script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.1/dist/pyscript.min.js
+link:     dist/pyscript.css
+script:   dist/pyscript.min.js
 
 persistent:  true
 
@@ -144,9 +144,8 @@ print("Hello World")
 ## `@PyScript.env`
 
           --{{0}}--
-If you need to make use of the `<py-env>` to preload Python libraries, then use
-the `@PyScript.env` macro. The content will be hidden to the LiaScript rendered
-version of your course.
+This macro is not needed anymore, the LiaScript implementation of PyScript, will
+try to load automatically all missing packages.
 
 ```` markdown
 ``` python @PyScript.env
