@@ -13,8 +13,8 @@ logo:     logo.png
 
 comment:  Set of PyScript-macros to be used with LiaScript for creating interactive Python tutorial.
 
-link:     dist/pyscript.css
-script:   dist/pyscript.min.js
+link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.2/dist/pyscript.css
+script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.2/dist/pyscript.min.js
 
 persistent:  true
 
@@ -93,7 +93,7 @@ and change it, as you wish.
 
    or use this specific version and you course will be stable:
 
-   `import: https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.1/README.md`
+   `import: https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.2/README.md`
 
 2. Copy the definitions into your Project
 
@@ -144,8 +144,9 @@ print("Hello World")
 ## `@PyScript.env`
 
           --{{0}}--
-This macro is not needed anymore, the LiaScript implementation of PyScript, will
-try to load automatically all missing packages.
+If you need to make use of the `<py-env>` to preload Python libraries, then use
+the `@PyScript.env` macro. The content will be hidden to the LiaScript rendered
+version of your course.
 
 ```` markdown
 ``` python @PyScript.env
@@ -247,8 +248,8 @@ The rest is simply LiaScript-macro syntax ... Do not forget to add
 `persistent: true` to your own project.
 
 ``` html
-link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.1/dist/pyscript.css
-script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.1/dist/pyscript.min.js
+link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.2/dist/pyscript.css
+script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.2/dist/pyscript.min.js
 
 persistent:  true
 
