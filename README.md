@@ -9,6 +9,8 @@ language: en
 
 narrator: US English Female
 
+logo:     https://pyscript.net/assets/images/pyscript-sticker-black.svg
+
 comment:  Set of PyScript-macros to be used with LiaScript for creating interactive Python tutorial.
 
 link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.1/dist/pyscript.css
