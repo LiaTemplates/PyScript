@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: en
 
@@ -13,8 +13,8 @@ logo:     logo.png
 
 comment:  Set of PyScript-macros to be used with LiaScript for creating interactive Python tutorial.
 
-link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.2/dist/pyscript.css
-script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.2/dist/pyscript.min.js
+link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.3/dist/pyscript.css
+script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.3/dist/pyscript.min.js
 
 persistent:  true
 
@@ -51,7 +51,7 @@ persistent:  true
     border: 1px solid black;
   }
 </style>
-<py-repl @0>@1</py-repl>
+<py-repl class="notranslate" translate="no" @0>@1</py-repl>
 </lia-keep>
 @end
 
@@ -93,7 +93,7 @@ and change it, as you wish.
 
    or use this specific version and you course will be stable:
 
-   `import: https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.2/README.md`
+   `import: https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.3/README.md`
 
 2. Copy the definitions into your Project
 
