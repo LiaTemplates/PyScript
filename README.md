@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  0.0.3
+version:  0.0.4
 
 language: en
 
@@ -13,8 +13,8 @@ logo:     logo.png
 
 comment:  Set of PyScript-macros to be used with LiaScript for creating interactive Python tutorial.
 
-link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.3/dist/pyscript.css
-script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.3/dist/pyscript.min.js
+link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.4/dist/pyscript.css
+script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.4/dist/pyscript.min.js
 
 persistent:  true
 
@@ -93,7 +93,7 @@ and change it, as you wish.
 
    or use this specific version and you course will be stable:
 
-   `import: https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.3/README.md`
+   `import: https://raw.githubusercontent.com/LiaTemplates/PyScript/0.0.4/README.md`
 
 2. Copy the definitions into your Project
 
@@ -108,7 +108,7 @@ passed to the LiaScript rendered version of the course.
 
 ```` markdown
 ``` python @PyScript.repl
-print("Hello World")
+print('Sammy says, \'Hello!\'')
 ```
 ````
 
@@ -117,7 +117,7 @@ print("Hello World")
 __Result:__
 
 ``` python @PyScript.repl
-print("Hello World")
+print('Sammy says, \'Hello!\'')
 ```
 
 ## `@PyScript.replWith`
@@ -248,8 +248,8 @@ The rest is simply LiaScript-macro syntax ... Do not forget to add
 `persistent: true` to your own project.
 
 ``` html
-link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.2/dist/pyscript.css
-script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.2/dist/pyscript.min.js
+link:     https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.4/dist/pyscript.css
+script:   https://cdn.jsdelivr.net/gh/liatemplates/pyscript@0.0.4/dist/pyscript.min.js
 
 persistent:  true
 
